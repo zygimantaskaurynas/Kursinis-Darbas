@@ -14,7 +14,7 @@ Sukurta bazinė abstrakti klasė **GameObject**. Ji nurodo, kad visi žaidimo ob
 
 ### 2.2. Paveldėjimas (Inheritance)
 Klasės **Ball**, **Paddle** ir **GoldenPoint** paveldi savybes iš **GameObject**. Tai leidžia išvengti kodo dubliavimo ir logiškai suskirstyti objektus pagal jų paskirtį. 
-![Paveldėjimo pavyzdys kode](screenshots/paveldejimasBALL.png) ![Paveldėjimo pavyzdys kode](screenshots/paveldejimasPADDLE.png) 
+![Paveldėjimo kamuoliuko pavyzdys kode](paveldejimasBALL.png) ![Paveldėjimo raketės pavyzdys kode](paveldejimasPADDLE.png) 
 
 ### 2.3. Polimorfizmas (Polymorphism)
 Nors visi objektai turi **update()** metodą, kiekviena klasė jį įgyvendina skirtingai:
