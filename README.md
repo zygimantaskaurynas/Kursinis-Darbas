@@ -43,7 +43,7 @@ Objektų būsenos valdomos naudojant apsaugotus atributus (pvz., **_rect**). Duo
 ## 3. Dizaino šablonas (Design Pattern)
 
 Projekte pritaikytas **Singleton** dizaino šablonas **GameManager** klasei. 
-- **Pasirinkimo priežastis:** Žaidime gali būti tik vienas pagrindinis "bosas", atsakingas už lango kūrimą, taškų skaičiavimą ir pagrindinį  ciklą. Kitais atvejais atsirastų galimybė, jog vienu metu galėtume būti atidaryti keli skirtingi žaidimo langai.
+- **Pasirinkimo priežastis:** Žaidime gali būti tik vienas pagrindinis "bosas", atsakingas už lango kūrimą, taškų skaičiavimą ir pagrindinį  ciklą. Kitais atvejais atsirastų galimybė, jog vienu metu galėtų būti atidaryti keli skirtingi žaidimo langai.
 - **Įgyvendinimas:** Naudojamas **__new__** metodas, kuris užtikrina, kad sukūrus kelis **GameManager()**, jie visi rodytų į tą patį objektą atmintyje.
 
 ---
