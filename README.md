@@ -10,7 +10,7 @@
 Projekte panaudoti visi keturi pagrindiniai OOP principai
 
 ### 2.1. Abstrakcija (Abstraction)
-Sukurta bazinė abstrakti klasė **GameObject**. Ji nurodo, kad visi žaidimo objektai privalo turėti (pvz.:**update()**) metodą, tačiau pati jo  neįgyvendina. !
+Sukurta bazinė abstrakti klasė **GameObject**. Ji nurodo, kad visi žaidimo objektai privalo turėti (pvz.:**update()**) metodą, tačiau pati jo  neįgyvendina.  
 
 [Abstrakcijos pavyzdys kode](abstrakcija.png) 
 
@@ -18,6 +18,7 @@ Sukurta bazinė abstrakti klasė **GameObject**. Ji nurodo, kad visi žaidimo ob
 Klasės **Ball**, **Paddle** ir **GoldenPoint** paveldi savybes iš **GameObject**. Tai leidžia išvengti kodo dubliavimo ir logiškai suskirstyti objektus pagal jų paskirtį. 
 
 [Paveldėjimo kamuoliuko pavyzdys kode](paveldejimasBALL.png) 
+
 [Paveldėjimo raketės pavyzdys kode](paveldejimasPADDLE.png) 
 
 ### 2.3. Polimorfizmas (Polymorphism)
@@ -25,8 +26,9 @@ Nors visi objektai turi **update()** metodą, kiekviena klasė jį įgyvendina s
 - **Ball** klasėje jis skaičiuoja judėjimo trajektoriją.
 - **Paddle** klasėje jis valdo raketės poziciją pagal žaidėjo klavišų paspaudimus. 
 
-![Polimorfizmo raketės pavyzdys kode](update()PADDLE.Polimorfizmas.png)
-![Polimorfizmo kamuoliuko pavyzdys kode](update()BALL.Polimorfizmas.png)
+[Polimorfizmo raketės pavyzdys kode](update()PADDLE.Polimorfizmas.png)
+
+[Polimorfizmo kamuoliuko pavyzdys kode](update()BALL.Polimorfizmas.png)
 
 
 ### 2.4. Inkapsuliacija (Encapsulation)
