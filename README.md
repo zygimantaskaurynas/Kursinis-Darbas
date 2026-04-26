@@ -1,9 +1,4 @@
 # OOP Kursinis darbas: PING PONG žaidimas
-
-**Autorius:** Žygimantas Kaurynas EAf-25
-**Data:** 2026-04-26
-**GitHub:** [Nuoroda į tavo repozitoriją]
-
 ---
 
 ## 1. Įvadas
