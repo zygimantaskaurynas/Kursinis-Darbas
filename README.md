@@ -10,7 +10,9 @@
 Projekte panaudoti visi keturi pagrindiniai OOP principai
 
 ### 2.1. Abstrakcija (Abstraction)
-Sukurta bazinė abstrakti klasė **GameObject**. Ji nurodo, kad visi žaidimo objektai privalo turėti (pvz.:**update()**) metodą, tačiau pati jo  neįgyvendina. ![Abstrakcijos pavyzdys kode](screenshots/abstrakcija.png) 
+Sukurta bazinė abstrakti klasė **GameObject**. Ji nurodo, kad visi žaidimo objektai privalo turėti (pvz.:**update()**) metodą, tačiau pati jo  neįgyvendina. !
+
+[Abstrakcijos pavyzdys kode](abstrakcija.png) 
 
 ### 2.2. Paveldėjimas (Inheritance)
 Klasės **Ball**, **Paddle** ir **GoldenPoint** paveldi savybes iš **GameObject**. Tai leidžia išvengti kodo dubliavimo ir logiškai suskirstyti objektus pagal jų paskirtį. 
@@ -22,12 +24,15 @@ Klasės **Ball**, **Paddle** ir **GoldenPoint** paveldi savybes iš **GameObject
 Nors visi objektai turi **update()** metodą, kiekviena klasė jį įgyvendina skirtingai:
 - **Ball** klasėje jis skaičiuoja judėjimo trajektoriją.
 - **Paddle** klasėje jis valdo raketės poziciją pagal žaidėjo klavišų paspaudimus. 
-![Polimorfizmo pavyzdys kode](screenshots/update()PADDLE.Polimorfizmas.png)
-![Polimorfizmo pavyzdys kode](screenshots/update()BALL.Polimorfizmas.png)
+
+![Polimorfizmo raketės pavyzdys kode](update()PADDLE.Polimorfizmas.png)
+![Polimorfizmo kamuoliuko pavyzdys kode](update()BALL.Polimorfizmas.png)
 
 
 ### 2.4. Inkapsuliacija (Encapsulation)
-Objektų būsenos valdomos naudojant apsaugotus atributus (pvz., **_rect**). Duomenys apie objektų koordinates ir greitį nėra tiesiogiai pasiekiami iš išorės, o valdomos per tam skirtus metodus. ![Inkapsuliacijos pavyzdys kode](screenshots/inkapsuliacija.png)
+Objektų būsenos valdomos naudojant apsaugotus atributus (pvz., **_rect**). Duomenys apie objektų koordinates ir greitį nėra tiesiogiai pasiekiami iš išorės, o valdomos per tam skirtus metodus. 
+
+![Inkapsuliacijos pavyzdys kode](inkapsuliacija.png)
 
 
 ### 2.5. Kompozicija
